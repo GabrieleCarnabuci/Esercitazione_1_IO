@@ -1,5 +1,3 @@
-
-
 #include <iostream>
 #include <fstream>
 #include <iomanip>
@@ -24,7 +22,7 @@ int main()
     std::ofstream outputFile("result.csv");
 
     //header
-    outputFile << " #N Mean" << "\n";
+    outputFile << "#N Mean" << "\n";
 
     double valore = 0.0;
     double somma = 0.0;
